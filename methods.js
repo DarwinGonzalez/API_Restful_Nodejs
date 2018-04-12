@@ -38,11 +38,6 @@ function findFilabyNid(nid, valor) {
     }
 }
 
-function delString(texto) {
-    texto = " ";
-    return texto;
-}
-
 function deleteFila(nid3,valor3) {
     var text = fs.readFileSync('data.txt','utf8')
     var texto = text.split('\n');
@@ -59,7 +54,6 @@ function deleteFila(nid3,valor3) {
         }
     }
 }
-
 
 findFilabyNid(nid, valor);
 deleteFila(nid3,valor3);
