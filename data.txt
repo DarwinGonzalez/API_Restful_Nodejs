@@ -2,3 +2,4 @@
 { "nid":"2","valor":"fisica" }
 { "nid":"3","valor":"quimica" }
 { "nid":"4","valor":"literatura" }
+{ "nid":"7","valor":"hola" }
