@@ -43,10 +43,12 @@ function deleteFila(nid3,valor3) {
     var texto = text.split('\n');
     var aux = "{ \"nid\":\"" + nid3 + "\"," + "\"valor\":\"" + valor3 + "\" }";
     var aux2 = " ";
+    var aux3 = " ";
     
     for(var i = 0; i < texto.length ; i++) {
         if (texto[i].toString() === aux.toString()) {
-            //text[i] = aux;
+            aux3 = texto[i];
+            aux3.replace(aux3, aux2);
             console.log("Eliminado!");
         }
         else {
